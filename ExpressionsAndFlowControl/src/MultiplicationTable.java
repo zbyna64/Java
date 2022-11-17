@@ -31,9 +31,8 @@ public class MultiplicationTable {
     }
     public static void print(int number) {
 
-
         for (int i = 1; i <= 10; i++) {
-            System.out.println(i + "*" + number + "=" + (i*number));
+            System.out.println(i + " * " + number + " = " + (i*number));
 
         }
     }
