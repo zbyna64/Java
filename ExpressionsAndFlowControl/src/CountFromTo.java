@@ -33,6 +33,5 @@ public class CountFromTo {
             System.out.println(firstNumber);
             firstNumber++;
         }
-
     }
 }

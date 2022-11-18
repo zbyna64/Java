@@ -32,7 +32,7 @@ public class GuessTheNumber {
             System.out.println("Please enter your guess: ");
             userInput = scanner.nextInt();
             if (storedNumber > userInput) {
-                System.out.println("The stored number is bigger than " + userInput);
+                System.out.println("The stored number is greater than " + userInput);
             } else if (storedNumber < userInput){
                 System.out.println("The stored number is smaller than " + userInput);
             }
